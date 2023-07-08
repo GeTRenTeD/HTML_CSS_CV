@@ -5,18 +5,19 @@ body * {
 body {
   background: var(--white, #ffffff);
   padding: 10px 40px 10px 40px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   gap: 18px;
   align-items: center;
   justify-content: center;
-  width: 595px;
-  height: 690px;
+  height: 100vh;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   position: absolute;
   overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 header {
@@ -313,7 +314,9 @@ header {
   width: 181px;
 }
 main {
+  padding-top: 10%;
     flex: 1;
+    height: 100vh;
   }
   
   .intro {
