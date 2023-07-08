@@ -1,0 +1,688 @@
+body,
+body * {
+  box-sizing: border-box;
+}
+body {
+  background: var(--white, #ffffff);
+  padding: 10px 40px 10px 40px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 170px;
+  position: relative;
+}
+.photo {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.photo-cv {
+  border-radius: 105px;
+  width: 156px;
+  height: 157px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 170px;
+  position: relative;
+}
+.phone-number {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 188px;
+  position: relative;
+}
+.phone {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phone-number-textbox {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 500 11px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  flex: 1;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 181px;
+  position: relative;
+}
+.envelope {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.email-link {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 500 11px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  flex: 1;
+  text-decoration: none;
+}
+.git-hub {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 188px;
+  position: relative;
+}
+.git-hub-pic {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.git-hub-link {
+  color: #696969;
+  text-align: left;
+  font: 500 11px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  width: 158px;
+  text-decoration: none; 
+}
+.vk {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 48.39px;
+  position: relative;
+  text-decoration: none; 
+}
+.vk-pic {
+  opacity: 0.9;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  position: relative;
+}
+.vk-link {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 500 11px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  text-decoration: none;
+}
+.education-components {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 55px;
+  position: relative;
+}
+.courses-and-trainings {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 700 12px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  height: 15px;
+}
+.course {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 13px;
+  position: relative;
+}
+.course-name {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 400 12px/12.34px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  width: 181px;
+  height: 25px;
+}
+.platform-name {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 600 12px/12.34px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 170px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 55px;
+  position: relative;
+}
+.projects-textbox {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 700 12px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  width: 211px;
+}
+.projects-set {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 47px;
+  position: relative;
+}
+.project-1 {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 300 11.39px/12.34px "Roboto", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.project-2 {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 300 11.39px/12.34px "Roboto", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.languages-title {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 700 12px/12.34px "Montserrat", sans-serif;
+  position: relative;
+  width: 211px;
+}
+.language-component-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: relative;
+}
+.lang-1-box {
+  flex-shrink: 0;
+  width: 181px;
+  height: 13px;
+  position: relative;
+}
+.proficiency {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 300 11.39px/12.34px "Roboto", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  width: 170px;
+}
+.lang-1 {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 500 11.39px/12.34px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 181px;
+}
+.language-component-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.lang-2-box {
+  flex-shrink: 0;
+  width: 181px;
+  height: 13px;
+  position: relative;
+}
+.lang-2 {
+  color: var(--medium-gray, #696969);
+  text-align: left;
+  font: 500 11.39px/12.34px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 181px;
+}
+main {
+  padding-top: 10%;
+    flex: 1;
+    height: 100vh;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 168px;
+    position: relative;
+  }
+  .name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 315px;
+    height: 13px;
+    position: relative;
+  }
+  .namebox {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 600 30px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .job-location {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .job-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 168px;
+    position: relative;
+  }
+  .job-title-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 600 16px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .location {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 168px;
+    position: relative;
+  }
+  .map-marker-alt {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .job-location-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 500 12px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    width: 57px;
+  }
+  .about-me-component {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 327px;
+    position: relative;
+  }
+  .about-me-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px "Roboto", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 491px;
+    position: relative;
+  }
+  .title {
+    border-style: solid;
+    border-color: var(--medium-gray, #696969);
+    border-width: 0px 0px 1px 0px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 30px;
+    position: relative;
+  }
+  .skills-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 700 16px/12.34px "Montserrat", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 9px;
+    width: 44px;
+  }
+  .all-experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hard-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 327px;
+    position: relative;
+  }
+  .title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hard-skills-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 700 12px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    width: 181px;
+  }
+  .hs-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .description-1{
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 17px;
+    position: relative;
+  }
+  .desc1-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+    height: 8.5px;
+  }
+  .description-2 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 27px;
+    position: relative;
+  }
+  .desc2-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  .description-3 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 38px;
+    position: relative;
+  }
+  .desc3-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: -9px;
+    width: 327px;
+    height: 29px;
+  }
+  .soft-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 327px;
+    height: 133px;
+    position: relative;
+  }
+  .ssTitle-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 21px;
+    position: relative;
+  }
+  .soft-skills-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 700 12px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    width: 181px;
+  }
+  .ss-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 202px;
+    position: relative;
+  }
+  .description-4 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+  }
+  .desc4-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+    height: 58.46px;
+  }
+  .description-5 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 38px;
+    position: relative;
+  }
+  .desc5-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+    height: 51.57px;
+  }
+  .description-6 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 28px;
+    position: relative;
+  }
+  .desc6-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  .description-7 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 42px;
+    position: relative;
+  }
+  .desc7-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  .description-8 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 29px;
+    position: relative;
+  }
+  .desc8-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  footer {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    color: #696969;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  footer::before {
+    content: "";
+    display: block;
+    width: 87%;
+    height: 0.95px;
+    background-color: #696969;
+    position: absolute;
+    top: -1px;
+    left: 40px;
+    
+  }
+  footer a {
+    color: #696969;
+    font-variant: normal;
+    text-decoration: none;
+  }
