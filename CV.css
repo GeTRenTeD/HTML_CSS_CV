@@ -312,3 +312,344 @@ header {
   top: 0px;
   width: 181px;
 }
+main {
+    flex: 1;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 168px;
+    position: relative;
+  }
+  .name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 315px;
+    height: 13px;
+    position: relative;
+  }
+  .namebox {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 600 30px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .job-location {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .job-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 168px;
+    position: relative;
+  }
+  .job-title-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 600 16px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .location {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 168px;
+    position: relative;
+  }
+  .map-marker-alt {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .job-location-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 500 12px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    width: 57px;
+  }
+  .about-me-component {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 327px;
+    position: relative;
+  }
+  .about-me-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px "Roboto", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 491px;
+    position: relative;
+  }
+  .title {
+    border-style: solid;
+    border-color: var(--medium-gray, #696969);
+    border-width: 0px 0px 1px 0px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 30px;
+    position: relative;
+  }
+  .skills-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 700 16px/12.34px "Montserrat", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 9px;
+    width: 44px;
+  }
+  .all-experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hard-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 327px;
+    position: relative;
+  }
+  .title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hard-skills-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 700 12px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    width: 181px;
+  }
+  .hs-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .description-1{
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 17px;
+    position: relative;
+  }
+  .desc1-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+    height: 8.5px;
+  }
+  .description-2 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 27px;
+    position: relative;
+  }
+  .desc2-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  .description-3 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 38px;
+    position: relative;
+  }
+  .desc3-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: -9px;
+    width: 327px;
+    height: 29px;
+  }
+  .soft-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 327px;
+    height: 133px;
+    position: relative;
+  }
+  .ssTitle-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 21px;
+    position: relative;
+  }
+  .soft-skills-title {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 700 12px/12.34px "Montserrat", sans-serif;
+    position: relative;
+    width: 181px;
+  }
+  .ss-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 202px;
+    position: relative;
+  }
+  .description-4 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+  }
+  .desc4-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+    height: 58.46px;
+  }
+  .description-5 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 38px;
+    position: relative;
+  }
+  .desc5-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+    height: 51.57px;
+  }
+  .description-6 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 28px;
+    position: relative;
+  }
+  .desc6-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  .description-7 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 42px;
+    position: relative;
+  }
+  .desc7-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
+  .description-8 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 29px;
+    position: relative;
+  }
+  .desc8-text {
+    color: var(--medium-gray, #696969);
+    text-align: left;
+    font: 300 12px/12.34px "Roboto", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 327px;
+  }
