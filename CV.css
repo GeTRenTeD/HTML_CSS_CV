@@ -670,12 +670,12 @@ main {
   footer::before {
     content: "";
     display: block;
-    width: 100%;
+    width: 87%;
     height: 0.95px;
     background-color: #696969;
     position: absolute;
     top: -1px;
-    left: 0px;
+    left: 40px;
     
   }
   footer a {
